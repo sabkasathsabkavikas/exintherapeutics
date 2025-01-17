@@ -1,0 +1,123 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+/* Header  */
+
+.container1{
+    height: 8.2vh;
+    width: 100%;
+    background-color: #cccccc;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14.666px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* After header mid page */
+
+.container2{
+    background-image: url("https://lh3.googleusercontent.com/hBYqbhhCbXrrdfvQGJbCj3dmerQvQFDymfI1F7fxE0y3pQ5QVA5VDZyr9CHnVcx_aaSOATO4zh3JxjpqdI-p2oc=w16383" );
+    background-size: cover;
+    background-position:center;
+    position: relative;
+    top: 25%;
+    font-size: 16px;
+    /* display: flex; */
+    height: 45vh;
+
+}
+
+.container2 .child1 p{
+    padding-left: 20px ;
+    font-size: 20px;
+
+}
+.container2 .child1{
+    display: flex;
+    align-items: center ;
+    justify-content: space-around;
+    font-size: 20px;
+    margin: 20px;
+    /* padding: 20px; */
+    
+    color: rgb(255, 255, 255);
+}
+.container2 .box1{
+    height: 7vh;
+    display: flex;
+    align-items: center ;
+    width: 35%;
+    
+    
+}
+.container2 .child1 img{
+    height: 41px;
+    padding-left: 25px; 
+}
+   /*
+.container2 .child2{
+    height: 7vh;
+    width: 65%;
+    display: flex;
+    align-items: center ;
+    width: 35%;
+    font-size: 20px;
+    color: white;
+    list-style-type: none; 
+}
+
+*/.container2 .child2 li{
+    padding: 10px;
+    width: 193px;
+}
+.container2 .child2 ul{
+    /* height: 5vh;
+    width: 35px; */
+    display: flex;
+    align-items: center ;
+    width: 35%;
+    font-size: 20px;
+    color: white;
+    list-style-type: none;
+    padding-left:90%;
+} 
+
+.container2 .child3{
+    /* height: 10vh; */
+    /* margin-left:-455px ; */
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    /* align-items:end; */
+    color: white;
+    font-size: 85px;
+}
+
+/* Footer */
+
+
+.container3{
+    height: 20vh;
+    background-color: #f5f4f4;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.container3 img{
+    height: 80px;
+}
+
+.container3 .child4{
+    width: 150px;
+    display: flex;
+    font-family: 20px;
+}
+
+.container3 .child6{
+
+}
